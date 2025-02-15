@@ -16,11 +16,26 @@ void intersection(int arr[],int sec[],int n,int m){
 }
 
 int main(){
-	int arr[10]={1,2,3};
-	int sec[10]={3,4};
+	int arr[10];
+	int sec[10];
+	int n;
+	int m;
+	cout<<"enter the size of the first array : ";
+	cin>>n;
+	cout<<"enter the number of elements in the first array : ";
+	for(int i=0;i<n;i++){
+		cin>>arr[i];
+	}
 	
-	int n=3;
-	int m=2;
+	cout<<"enter the size of the second array : ";
+	cin>>m;
+	cout<<"enter the number of elements in the second array : ";
+	for(int i=0;i<m;i++){
+		cin>>sec[i];
+	}
+
+	
+	
 	
 	intersection(arr,sec,n,m);
 	
